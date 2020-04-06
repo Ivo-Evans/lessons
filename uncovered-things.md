@@ -6,6 +6,9 @@ Things I haven't covered yet (notes for self)
 	- walk through operators
 	- floating point imprecision
 	- explain modulo/remainder
+		- difference from 'true' mathematical operators - something is lost
+		- cryptography
+		- finding even numbers
 	- brackets work just like in Maths
 	- order of operations/PEMDAS
 
@@ -13,7 +16,7 @@ Things I haven't covered yet (notes for self)
 	- assignment is right-to-left
 
 - variables, functions and identifiers
-	- saving values to a state: variables
+	- saving values: variables
 		- let, const and var (for now just use let)
 		- undeclared variables (a big no no, but possible)
 	- notational conventions - pascalCase in JavaScript
@@ -36,7 +39,7 @@ Things I haven't covered yet (notes for self)
 	- challenge
 		- research the keyword if
 		- research the keyword for (hint: google JavaScript for-loop)
-		- write a function which takes a number n and tells me whether that number is a prime number. If the number you give it when you call it is is a prime number, the function should print 'prime' to the console. If it isn't, it should print 'not prime'. 
+		- write a function which takes a number n and tells me whether that number is a prime number. If the number you give it when you call it is is a prime number, the function should print 'prime' to the console. If it isn't, it should print 'not prime'.
 
 - Theoretical v.s. practical considerations in the construction of functions: side effects v.s. return values
 	- well done on making your program
