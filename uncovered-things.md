@@ -1,6 +1,7 @@
 Things I haven't covered yet (notes for self)
 
 - semi-colons in JavaScript: statements and expressions
+- comments
 
 - Doing maths with the mathematical operators
 	- walk through operators
@@ -37,9 +38,8 @@ Things I haven't covered yet (notes for self)
 		- keywords
 			- let is an example of a keyword
 	- challenge
-		- research the keyword if
 		- research the keyword for (hint: google JavaScript for-loop)
-		- write a function which takes a number n and tells me whether that number is a prime number. If the number you give it when you call it is is a prime number, the function should print 'prime' to the console. If it isn't, it should print 'not prime'.
+		- write a function that takes an argument, and finds the factorial of it.
 
 - Theoretical v.s. practical considerations in the construction of functions: side effects v.s. return values
 	- well done on making your program
@@ -57,6 +57,13 @@ Things I haven't covered yet (notes for self)
 	- modify your function so that it returns its result, instead of console logging its result
 	- console log the return value of your function.
 
+- recursion
+  - weirdly enough, a function can call itself inside its definition
+  - this leads to some interesting and sometimes confusing results
+  - you need to specify a 'base case', or a situation in which the function does not call itself. 
+  - to specify a base case, you need to build some branching logic into your function, so that, in one situation, it goes one way, and in another situation, it goes another way. 
+  - when the function does call itself, you might want to think about what arguments you give it - you don't need to give it the same ones you gave it on the last pass
+  - rewrite your factorialising program to use recursion instead of a for-loop, and to return its result
 
 Other things to splice in:
 - the command line: pwd, cd and ls - move around for a bit
