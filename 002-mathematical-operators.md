@@ -66,7 +66,7 @@ Another interesting property of the modulus operation is that its result will ne
 22 % 5 // 2
 23 % 5 // 3
 24 % 5 // 4
-25 % 5 // 5
+25 % 5 // 0
 ```
 
 For this reason, the modulo operation is a great way to determine whether a number is even in languages that do not have a built in function for this (like JavaScript).
