@@ -1,12 +1,23 @@
 # functions
   - what are they
+
   - syntaxes
     - declarations
     - expressions
       - trad
       - arrow
     - expressions are technically anonymous, but they can be saved to variables, so they're effectively the same
+
   - challenge
+    - I've written a function which generates a random number in a range. I want you to _use_ that function inside a function that prints a random number to the console. I've minimised this in case you want to have a go at writing your own randomInRange function, but I don't expect you to do something like that on lesson 3. 
+
+```
+function randomInRange(min, max) {
+  let variance = max - min
+  let randomness = Math.floor(Math.random*variance)
+  return min + randomness
+}
+```
     - write a function which generates a random letter of the alphabet each time it is called, and logs that letter to the console. In your function, you might want to use
       - String.fromCharCode() https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode
       - Math.random ()

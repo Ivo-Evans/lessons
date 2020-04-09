@@ -41,7 +41,7 @@ However, a const variable's reference _can_ change: the thing it points to can m
 const firstArray = []
 ```
 
-There are four 'cardinal' functions for arrays, which, I believe, are effectively universal across programming languages: push, pop, shift and unshift. push(x) adds x onto the end of an array, pop() removes the last item from an array, shift() removes the first item from an array, and unshift(x) adds x on to the start of an array. Let's push a value onto our array:
+There are four kind-of cardinal functions for arrays, which, I believe, are effectively universal across programming languages: push, pop, shift and unshift. push(x) adds x onto the end of an array, pop() removes the last item from an array, shift() removes the first item from an array, and unshift(x) adds x on to the start of an array. Let's push a value onto our array:
 
 ```
 firstArray.push(5)
@@ -84,7 +84,7 @@ hello = hello + "o"
 console.log(hello)
 ```
 
-## Bespoke operators
+## Luxury operators
 JavaScript has a bunch of reassignment operators to make what we just did quicker. Here they are:
 
 ```
@@ -98,7 +98,7 @@ JavaScript has a bunch of reassignment operators to make what we just did quicke
 **=
 ```
 
-These last four are pretty rare, but it's good to know they exist. I'll leave it to you to experiment with these operators to figure out how they work, but I'll give you a clue: the first two are different to the rest.
+These last four are pretty rare, but it's good to know they exist. I'll leave it to you to experiment with these operators to figure out how they work, but I'll give you a clue: the first two are different to the rest, and they have two versions each.
 
 ## The assignment operator is not the equality operator
 A really standard confusion for beginners is between = and ==. == is the equality operator and it tests a logical relationship, returning either true or false. = is the assignment operator, and it creates a relationship between a value and a name. Its return value is almost always irrelevant. Back in the day, I found it helpful to think that = _creates_ reality, and == _describes_ it. 
