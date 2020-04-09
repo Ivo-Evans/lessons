@@ -56,7 +56,7 @@ The final operator is the remainder operator. In other programming languages it 
 
 21 cannot be divided by 5 and yield an integer. However, 20 can be divided by 5, with one left over: that is the modulus of that operation. By the same token, 21 / 5 is 4.2 ; 4.2 rounded down is 4, with five 0.2's left over - it is those 5 0.2's that the remainder operation hoovers up.
 
-I find the modulo/remainder operation interesting because it is not pure like other mathematics: something is lost. 5/2 creates 2 neatly, but if you divide 21 by 5 with the aim of leaving integers, while you are left with two results (a quotient and a remainder), you throw one of them away, thus subtracting from the purity of the system. This property of modulus operations makes them useful to cryptographers: reversing a modulus operation on a very high number is difficult, because not all of the relevant information is available in the result.
+I find the modulo/remainder operation interesting because it is not pure like other mathematics: something is lost. 5/2 creates 2.5 neatly, but if you divide 21 by 5 with the aim of leaving integers, while you are left with two results (a quotient and a remainder), you throw one of them away, thus subtracting from the purity of the system. This property of modulus operations makes them useful to cryptographers: reversing a modulus operation on a very high number is difficult, because not all of the relevant information is available in the result.
 
 Another interesting property of the modulus operation is that its result will never be higher than its divisior.
 
