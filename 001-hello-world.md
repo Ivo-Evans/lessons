@@ -56,7 +56,7 @@ You encode strings by surrounding the text in either ', " or ` (a backtick).
 
 ### functions
 
-So we've learnt a little bit about data types. Now what about these brackets? The brackets are intimately connected to their preceding word, log. log is a 'function', and when you place brackets after a function's name, you 'call' the function. functions, along with operators, are how you turn inert data into a program that changes the state of values, and to 'call' a function is simply to use it.
+So we've learnt a little bit about data types. Now what about these brackets? The brackets are intimately connected to their preceding word, log. log is a 'function', and when you place brackets after a function's name, you 'call' the function. functions, along with operators, are how you turn inert data into a program that changes the state of values, and to 'call' a function is to use it.
 
 Functions are actually little programs themselves, which we can reuse in our code, passing them different 'arguments' to change the details of what they do. For instance, console.log will always log its argument to the console. When that argument is 'hello, world', it logs 'hello, world' to the console. Programmers define their own functions all the time, and we'll do so too pretty soon, but not today.
 
@@ -80,7 +80,7 @@ So why does the JavaScript engine think log is not defined, when we ran it above
 
 It is because the log we used was _stored_ in an 'object'. An object is a data structure that lets you associate values with names, or 'keys' (like the key in a cipher, which lets you access otherwise hidden information). _log_ is a key, which is associated with a function, a function we all know and love, which takes an argument and prints it to the console. This function is 'inside' the object `console`, and we can't use the function unless we take it out of `console`. One way to do that is with the dot notation. Another is with square brackets, which are on balance a bit better, but which we'll learn about later.
 
-The word console in our program is not the actual console, it is just an _object_ that JavaScript gives us so that we can indicate that we want to do something to the actual console.
+The word console in our program is not the actual console, it is an _object_ that JavaScript gives us so that we can indicate that we want to do something to the actual console.
 
 So the dot in our program gets the function `log` out of the object console, and let's us _call_ the function by putting brackets after the function's name.
 
