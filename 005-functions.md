@@ -125,6 +125,6 @@ There's a fair bit you need to do to make a function print a random letter so I'
   const randomInRange = randomness + min
 ```
 
-randomInRange would be a number in between min and max, if only these were numbers. As it is, it will throw an error. To complete the function, you should look into the charCodeAt function, and try to make it work. You should also check out the ASCII table. This should be a good introduction to reading online resources. MDN is always a solid choice if you see it in a google search. 
+randomInRange would be a number in between min and max, if only these were numbers. As it is, it will throw an error. To complete the function, you should look into the String.fromCharCode function, and try to make it work. You should also check out the ASCII table. This should be a good introduction to reading online resources. MDN is always a solid choice if you see it in a google search. 
 
 p.s. notice that I used constants. Constants are a good idea if you know you aren't going to reassign the variable later, because it means that, if you do reassign later, the program will throw an error, with a line-number, rather than just not working in some obscure way. Conversely, though, if you're struggling with a problem, and you aren't _sure_ whether you'll reassign or not, it's probably best not to encumber yourself with constants.
