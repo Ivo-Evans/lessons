@@ -76,7 +76,7 @@ What this function does is listen to a keydown event, and prevent the default be
 
 In the console, you're likely to have a lot of junk showing up. Wait until the junk has slowed down. Then press the ban sign (Chrome), or the bin sign (Firefox), or alternately accept having junk on your screen. Right - we're finally ready to input our function. Click just to the right of the blue arrow in console, copy and paste our function in, and press enter.
 
-(generally typing is better than copy and pasting but the console can be a bit annoying to type in.)
+(generally typing is better than copy and pasting but the console can be a bit annoying to type into.)
 
 Now, if you close the console, keyboard navigation will not work like it normally does. Space won't jumo the page down, and the arrow keys won't let you navigate. Cool.
 
@@ -88,7 +88,7 @@ You might remember the dot syntax from the first lesson, hello world - it gets p
 
 We give addEventListener two arguments. The first is a string, representing which kind of event we want to listen for. The second is a function, which we want the browser to call whenever the event happens. Since no humans are going to call the function, we don't need to give it a name. We call it a _callback_ function because we call addEventListener, and then addEventListener calls back with the function we passed it as an argument. The function goes off in a loop and then comes back to us, like a boomerang.
 
-When a keydown event happens, the browser will pass that event as an _argument_ to our anonymous function. Our function will call preventDefault() on the event, which is itself a property of the event, and the keypress will in this way be intercepted.
+When a keydown event happens, the browser will pass an object representing that event as an _argument_ to our anonymous function. Our function will call preventDefault(), which is a property of the event object, and the keypress will in this way be intercepted.
 
 This is the normal way to use callbacks, but to be clear, we could have done exactly the same thing with a non-anonymous function:
 
