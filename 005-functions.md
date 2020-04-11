@@ -60,7 +60,7 @@ When you assign a function expression to a variable, you're basically writing a 
 
 ### callbacks
 
-As mentioned in lesson 1, JavaScript can run in different environments, and one of those is in your browser. JavaScript is the only language that can do this, and this is actually what it was created for: as a language to bring interactivity to the web.
+As mentioned in lesson 1, JavaScript can run in different environments, and one of those is in your browser. JavaScript is the only language that can do this, and this is actually what it was created for.
 
 One way it does this is by listening to 'events' on the webpage, like clicking. We're going to add an 'event listener', and then explain the syntax.
 
