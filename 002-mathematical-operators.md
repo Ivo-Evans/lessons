@@ -88,7 +88,7 @@ But in JavaScript,
 -21 % 5 // -1
 ```
 
-So what's up? -21 / 5 is -4.2. Ruby, performing a _modulo_ operation, subtracts 0.8 from each -4.2, and then multiplies the result by 5 to make 4. JavaScript subtracts -0.2 from each -4.2 (to make them -4) and then multiplies -0.2 by 5, to make -1.
+So what's up? -21 / 5 is -4.2. Ruby, performing a _modulo_ operation, subtracts 0.8 from each -4.2 to make -5, and then multiplies what it subtracted by 5, to make 4. JavaScript, performaing a remainder operation, subtracts -0.2 from each -4.2 (to make them -4) and then multiplies what _it_ subtracted by 5, to make -1.
 
 ## == - an assertion of equality - really a logical relationship
 

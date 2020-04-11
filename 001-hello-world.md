@@ -103,10 +103,22 @@ We've actually already covered operators. The dot is an operator for getting the
 
 You just covered **a lot** of information. I'd like you to investigate a bit by noodling around in your code editor.
 
-You can actually put the function we just wrote inside another console log!
+If you have any more in there than
+
+```javascript
+console.log("hello, world");
+```
+
+delete it.
+
+Press run with what you've got, and observe the result. Now we're going to wrap this expression inside another console log:
 
 ```javascript
 console.log(console.log("hello, world"));
 ```
 
-Try systematically removing parts and seeing what gets printed to the terminal. Errors are ok: they tell you the rules.
+Run it again and see what you get.
+
+Now, try systematically removing parts from the inner console log and see what gets printed to the terminal. Errors are ok: they tell you the rules.
+
+This task might seem simple, but I am actually training you in the most important skill for a developer: debugging. console.log lets you see what a value is at a particular time, so it lets you understand where you are going wrong. I wouldn't be at all surprised if it was the single most-used JavaScript function.
