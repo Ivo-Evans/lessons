@@ -1,6 +1,6 @@
 # Variables
 
-So far, in our programs, we've plugged values into console.log, and seen results. But an essential part of programming is tracking change over the course of the execution of a program. That is where variables come in. Variables are like _names_ we give to values. Once we have given a name to a value at the beginning of our program's execution, we can use the name as a fixed point to observe changes.
+So far, in our programs, we've plugged values into console.log, and seen results. But an essential part of programming is tracking change over the course of the execution of a program. That is one fo the things variables are for. Variables are like _names_ we give to values. Once we have given a name to a value at the beginning of our program's execution, we can use the name as a fixed point to observe changes.
 
 Variables also provide other benefits, including:
 - letting you use a value in multiple places but only define it once. For instance, say you're making a video game and a number of your functions use the speed at which enemies move. You could assign this information to a variable, and then use the variable throughout your program. That way, if you wanted to adjust the settings, you would only need to change the code in one place.
@@ -58,7 +58,7 @@ Now, back to the topic at hand. firstArray points to the same array as it did be
 - string
 - number
 - bigint (really big integers)
-- boolean
+- boolean (true and false)
 - undefined
 - symbol
 
@@ -113,18 +113,18 @@ A really standard confusion for beginners is between = and ==. == is the equalit
 
 ## Challenge
 
-Yesterday you explored the command line a bit: today you'll do some more exploring, except that instead of merely navigating, you'll explore its creative and destructive powers, with mkdir, touch, rm.
+Yesterday you explored the command line a bit: today you'll do some more exploring, except that instead of merely navigating, you'll explore its creative and destructive powers, with mkdir, touch and rm.
 
-mkdir makes a directory. Give it a name like this
+mkdir makes a directory. Give the directory a name like this
 
 ```
   mkdir my-dir
 ```
 
-give it multiple names separated by spaces to make an extra directory.
+give it multiple names separated by spaces to make multiple directories.
 
 touch creates a file, unless there is already a file of that name in the working directory, and then it does nothing - like the inverse of touching a moth's wing. The file is an empty, plain-text file. It doesn't even need a file extension. All files, at base, are like this: even a JPEG is a long string.
 
-rm is for removing things - but there's a catch. rm will remove single files, or empty folders, but if the folder has anything in it, you'll need to use rm -r, rm 'recursive'. You can also use man rm, or indeed man any other command, to see a manual page for the command.
+rm is for removing things - but there's a catch. rm will remove single files, but if you want to remove folders, you'll need to use rm -r, rm 'recursive'. You can also use man rm, or indeed man any other command, to see a manual page for the command.
 
 So, cd around a bit and try out these commands. We're working up to an actual puzzle challenge, but first, you need to know syntax
