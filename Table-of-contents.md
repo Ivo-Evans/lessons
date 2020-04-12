@@ -1,7 +1,7 @@
-
+## Table of contents
 
 <details>
-<summary>Part 1: JavaScript fundamentals</summary>
+<summary>JavaScript fundamentals</summary>
 
 1. Hello world
 
@@ -38,7 +38,7 @@ forEach, map, filter and others
 </details>
 
 <details>
-<summary>Part 2: JavaScript on the web</summary>
+<summary>JavaScript on websites</summary>
 
 1. What is the DOM
 
@@ -69,7 +69,8 @@ forEach, map, filter and others
 
 
 <details>
-<summary>Part 3: Serverside JavaScript</summary>
+<summary>Server-side JavaScript</summary>
+Nothing yet...
 </details>
 
 
@@ -110,7 +111,7 @@ forEach, map, filter and others
   
   1. Including CSS and javascript
   
-  1. The importance of semantic elements - it's not all about you
+  1. Semantic elements
   
   1. Using Emmett
   
