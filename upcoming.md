@@ -1,13 +1,8 @@
 
-# overview of lexical environment and challenge
+# doing something n times: for-loops
+- what they are
+- not also for... of, for ... in, while...
 
-- overview of tokens
-  - value 'literals'
-  - identifiers
-  - operators
-  - keywords
-  - comments
-  - semi-colons
 - challenge
   - write a function that takes an argument, finds the factorial of the argument, and prints it to the console
   - use the JavaScript keyword `for`

@@ -7,17 +7,15 @@
 
 1. maths
 
-1. variables a very simple introduction, overview of lexical 
-environment
+1. variables
 
 1. Review
 
-1. functions <- generate a random letter
+1. functions
 
-1. return values <- practice _composition_ - factor my function out, 
-make it return a value, and then call it inside your function
+1. return values
 
-1. doing something n times: for-loops
+1. doing something n times: for-loops. Arrays.
 
 1. doing something n times: recursion
 
