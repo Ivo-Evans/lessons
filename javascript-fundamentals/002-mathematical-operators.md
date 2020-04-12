@@ -96,39 +96,4 @@ You can use == to see whether two things are equal. This is, really, a _logical_
 
 ## Challenge
 
-The challenge today isn't anything to do with maths. I just want you to experiment with the command line with three commands: pwd, ls and cd.
-
-But first, what is the command line?
-
-Way back in the day, computers didn't have windows or pictures (in fact, bringing 'windows' to the masses was Microsoft's big innovation). There were literally just lines of text, like you see in your terminal. Nowadays, the terminal is inside the windowing system, and not vice versa, although there are also some graphical apps that you can enter in your terminal, like nano. But the upshot is this: the terminal is a way to navigate your computer, make changes to the filesystem, and launch applications - even applications with no _graphical_ manifestation.
-
-The commands I'm going to teach you today are all related to the first of these purposes: navigation. They are 'safe' commands, because they are just about travelling and looking.
-
-So, open up your terminal, enter pwd, and hit enter.
-
-pwd stands for 'print working directory' and it is where you are now.
-
-Now type ls.
-
-ls stands for 'list' and it lists the content of the working directory. However, you can also give it _arguments_, which modify its usage. For instance,
-
-```
-	ls -a
-```
-
-lists hidden files, such as system files, as well as visible ones.
-
-You can also provide the name of a folder which is in the current working directory as an argument to ls, and then ls will list the contents of _that_ directory.
-
-Finally, cd stands for change directory. Let's say that after using ls, you know that your working directory contains my-folder. You can use cd to move into it
-
-```
-	cd my_folder
-	pwd
-```
-
-what if you want to go back? I'm going to teach you two ways. The tilde (~) is an alias for your 'home' directory. Wherever you are in the filesystem, ~ means 'your home', whatever that happens to be. I believe that on macs home is the desktop.
-
-Another symbol is two dots(..). This means 'this directory's parent directory'. It allows you to go up a single layer, relative to where you are now.
-
-The challenge, if you can call it such, is just to move around your filesystem, getting to know these three commands. They'll pay dividends!
+The challenge today isn't anything to do with maths. I just want you to experiment with the command line with three commands: pwd, ls and cd. To do that, you should read the first and second entries in the command line Appendix. Both are very short. The first tells you what the command line is, and the second one goes through the commands.

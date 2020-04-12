@@ -1,6 +1,6 @@
 # Review
 
-In the last three lessons, we've covered a vast swath of information, often very fast. It would be perfectly natural to understand it in a superficial way, at the time, but not to prioritise getting it into your head and keeping it there. I know that I did that, the first time I tried to learn. I flew through a CodeAcademy HTML course, listening to German techno and thinking how fun coding was. But a week later, when I tried to write a website, I had forgotten everything, and that was the end of my first sally into the field. I hadn't appreciated that it's not only getting _through_ the content, but owning it, that is necessary, and that your points or progress in an _external_ system aren't a good indicator of how much you understand _internally_.
+In the last three lessons, we've covered a vast swath of information, often very fast. It would be perfectly natural to understand it in a superficial way, at the time, but not to prioritise getting it into your head and keeping it there. I know that I did that, the first time I tried to learn. I flew through a CodeAcademy HTML course, listening to German techno and thinking how fun and easy this was. But a week later, when I tried to write a website, I had forgotten everything, and that was the end of my first sally into the field. I hadn't appreciated that it's not only getting _through_ the content, but owning it, that is necessary, and that your points or progress in an _external_ system aren't a good indicator of how much you understand _internally_.
 
 One of the best ways to learn is to test yourself in a pleasant, low-stakes environment, so I suggest you do so. I'd also recommend writing things down on actual paper - another thing proven to help you store memories - but writing it down on the computer has certain advantages too, like letting you revisit your answers from earlier in the test and edit them when new things occur to you.
 
@@ -8,7 +8,7 @@ Let's do the self-test in two parts.
 
 Firstly, look at the titles of the first three lessons, and write down everything you can remember from each lesson.
 
-Secondly, look at this list of words and try to define each one as best you can.
+Secondly, look at this list of words and try to define each one as best you can. The list of words includes pretty much everything from the first three lessons. 
 
 Not knowing the answers is ok - **no one has perfect memory** - but it is also feedback on areas to work on.
 

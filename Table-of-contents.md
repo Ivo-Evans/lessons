@@ -26,11 +26,15 @@ forEach, map, filter and others
 
 1. Introduction to object literals. Objects versus arrays
 
+1. Practical lesson: using codewars
+
 1. variable scope and closures, including var v.s. let and const
 
 1. Change in programs: let v.s. const, primitive v.s. reference
 
 1. Logic in programming: the concept of truth, truthiness
+
+1. Hoisting
 
 1. How && and || evaluate
 

@@ -1,0 +1,3 @@
+# What is the command line?
+
+Way back in the day, computers didn't have windows or pictures (in fact, bringing 'windows' to the masses was Microsoft's big innovation). There were literally just lines of text, like you see in your terminal. Nowadays, the terminal is inside the windowing system, and not vice versa, although there are also some graphical apps that you can enter in your terminal, like nano. But the upshot is this: the terminal is a way to navigate your computer, make changes to the filesystem, and launch applications - even applications with no _graphical_ manifestation.

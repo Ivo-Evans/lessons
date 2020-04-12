@@ -1,8 +1,8 @@
 # Functions: return values v.s. side-effects
 
-Well done on writing your first function! It was probably pretty tricky. 
+Well done on writing your first function! It was probably tricky. 
 
-Today's lesson is composed of three parts and a challenge. The first part provides technical information about functions. The next two parts provide theoretical information. If this seems overwhelming or obscure, don't worry - you can come back to it later (or never). Finally, the challenge asks you to apply your practical learning from the first part.
+Today's lesson is composed of three parts and a challenge. The first part provides technical information about functions. The next two parts address the large topic of what makes code good or bad. If this seems overwhelming or obscure, don't worry - you can come back to it later (or never). Finally, the challenge asks you to apply your practical learning from the first part.
 
 ## Functions and return values
 
@@ -57,13 +57,13 @@ In JavaScript, you almost never control all the moving parts.
 
 JavaScript was invented to be embedded into the browser, and to talk to other languages and programs, e.g. by handling web requests and things that go onto a web page. We already did a bit of this when we added event listeners. 
 
-Programs talk to each other via _APIs_, or application programming interfaces. These are nothing more than the parts of a program that are available for other programs to interact with, like the holes in an electrical outlet are the part of the home's electrical system that are available for other devices to interact with. When you make your own programs that can be read by other programs, you'll be making APIs, and possibly without even realising it.
+Programs talk to each other via _APIs_, or application programming interfaces. These are nothing more than the parts of a program that are available for other programs to interact with, like the holes in an electrical outlet are the part of a home's electrical system that are available for other devices to interact with. When you make your own programs that can be read by other programs, you'll be making APIs, and possibly without even realising it.
 
 We've already used two APIs, firstly when we changed the content of websites with client-side JavaScript, and secondly when we logged things to the console.
 
-Let's take the DOM API as an example, which is the API we used when we changed how websites looked and behaved. The DOM API provides a ```document``` object to JavaScript, so that when you're programming in a browser environment, you can change the properties of the document object, and the DOM will change the actual html document (the website itself). (Note that the document object is not available in repl.it, because repl.it, while representing JavaScript (mostly) accurately, does not try to simulate the programming environment of a browser.)
+Let's take the DOM API as an example, which is the API we used when we changed the content of websites with JavaScript. The DOM API provides a ```document``` object to JavaScript, so that when you're programming in a browser environment, you can change the properties of the document object, and the DOM will change the actual html document (the website itself). (Note that the document object is not available in repl.it, because repl.it, while representing JavaScript (mostly) accurately, does not try to simulate the programming environment of a browser.)
 
-When we're trying to use an external API to create change, _just returning_ a value isn't going to cut it, because if we're returning values we need to be in control of something to 'catch' those values. Since we're not programming the DOM directly, but from JavaScript, that's not really possible. Instead, we'll have to write some JavaScript that changes the state of an external thing (the DOM): and that's where side-effects come in. 
+When we're trying to use an external API to create change, _just returning_ values from our functions isn't going to cut it, because if we're returning values we need to be in control of something to 'catch' those values. Since we're not programming the DOM directly, but from JavaScript, we can't write code from the DOM's perspective which calls our functions and monitors their return value. Instead, we'll have to write some JavaScript that changes the state of an external thing (the DOM): and that's where side-effects come in. 
 
 When you want your code to 'talk' to other programs via their APIs, you will likely not be able to avoid side-effects. On the other hand, when you are writing functions to talk to other functions within your program, you might want to consider function purity as one criterion for code quality.
 
