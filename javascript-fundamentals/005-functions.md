@@ -125,7 +125,7 @@ There's a fair bit you need to do to make a function print a random letter so I'
   const min
   const max
   const variance = max - min
-  const randomness = Math.floor(Math.random*variance)
+  const randomness = Math.floor(Math.random() * variance)
   const randomInRange = randomness + min
 ```
 
