@@ -70,12 +70,14 @@ When you want your code to 'talk' to other programs via their APIs, you will lik
 
 # Challenge
 
-So, one thing that can make your code high-quality is writing pure functions. Another way to increase code quality is _composition_. Code is _composable_ when complex functions are made out of simple functions. The ideal is to have a higher number of simpler functions, each of which has an informative and useful name, and which can be reused later if you want. Pure functions are useful here too, because you can rely on being able to reuse a function if you know that it is pure.
+So, one thing that can make your code high-quality is writing pure functions. Another way to increase code quality is _composition_. Code is _composable_ when complex functions are made out of simple functions. The ideal is to have a higher number of simpler functions, each of which has an informative and useful name, and which can be reused later if you want. Pure functions are useful here, because you can rely on being able to reuse a function if you know that it is pure.
 
 Take the function you wrote yesterday and refactor it so that
 - there is one function that returns a random number in a specified range. You should be able to provide the upper and lower bounds of the range to the function as arguments.
 - there is another function which calls the first function, converts the returned number into a letter, and returns that letter
 - console.log is not called inside a function, but uses the return value of a function to print results to the console
+
+Note that neither of these functions will be pure: the first will use information from outside the function to generate a number which seems random, and the second will use the first function. If the second used the first's return value but not the first function, it would be pure. 
 
 ## Bonus challenge
 Only do this if you want to.

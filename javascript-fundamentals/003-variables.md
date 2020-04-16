@@ -22,7 +22,7 @@ You can, actually, use a variable without declaring it, but this is a big no-no 
 
 Once you have declared a variable, you cannot declare it again (unless you are in a different _scope_ - a topic for another day)
 
-By convention, JavaScript identifiers use pascalCase - the first word is lower case, and every next word starts with an uppercase character. There are no underscores or dashes. Starting with a number or symbol is actually illegal - it will break your code.
+By convention, JavaScript identifiers use camelCase - the first word is lower case, and every next word starts with an uppercase character. There are no underscores or dashes, and starting with a number and most symbols is actually illegal - it will break your code.
 
 
 ## Note this: the assignment operator is not the equality operator

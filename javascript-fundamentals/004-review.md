@@ -50,7 +50,7 @@ Not knowing the answers is ok - **no one has perfect memory** - but it is also f
 | data types         | primitives (w/ examples) | reference types (w/ examples) | argument              |
 | what is 'calling'? | ls                       | cd                            | touch                 |
 | mkdir              | rm                       | comments in JS                | terminal              |
-| pascalCase         |                          |                               |                       |
+| camelCase         |                          |                               |                       |
 
 </details>
 <br/>

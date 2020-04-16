@@ -9,18 +9,21 @@
 
 1. variables
 
-1. Review
+1. Review: basic elements
 
 1. functions
 
 1. return values
 
-1. doing something n times: for-loops. Arrays.
+1. Arrays and the higher order array functions
+
+1. Review: functions
+
+1. doing something n times: for-loops.
 
 1. doing something n times: recursion
 
-1. doing something once for every item of an array: introduction to 
-forEach, map, filter and others
+1. Review: doing things n times and working with arrays
 
 1. Introduction to object literals. Objects versus arrays
 
@@ -31,6 +34,8 @@ forEach, map, filter and others
 1. Change in programs: let v.s. const, primitive v.s. reference
 
 1. Logic in programming: the concept of truth, truthiness
+
+1. Getting systematic about data types
 
 1. Hoisting
 
@@ -107,13 +112,17 @@ Nothing yet...
   
   1. single tags, double tags and attributes. The comment tag.
   
+  1. structuring elements (div, span, article) v.s. content elements
+  
   1. The header structure
   
   1. p, a and img tags
+
+
+  1. Semantic elements
   
   1. Including CSS and javascript
   
-  1. Semantic elements
   
   1. Using Emmett
   
