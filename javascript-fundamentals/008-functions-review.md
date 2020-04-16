@@ -44,4 +44,6 @@ People often do apply these rules in the wild. Programers are a lazy bunch. One 
 
 It creates a relatively clean syntax in an expression that would otherwise be full of brackets, curly-braces, and keywords.
 
-## Part 3: explor the command line with mv to learn about namespace
+## Part 3: explore the command line with mv to learn about namespace
+
+head over to appendices/command-line/004-mv-namespace.md to learn about moving stuff
