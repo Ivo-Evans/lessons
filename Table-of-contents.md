@@ -37,7 +37,7 @@
 
 1. Getting systematic about data types
 
-1. Hoisting
+1. Hoisting and overview of variables
 
 1. How && and || evaluate
 

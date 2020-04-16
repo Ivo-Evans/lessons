@@ -108,13 +108,13 @@ When the document registers a click event, it will call preventor, and pass the 
 
 ### another syntax for function expressions
 
-There is another, newer syntax for function expresions which you'll see a lot in the wild, called an arrow or fat-arrow function. I don't want to give you information overload, so I won't go into minutiae, but the gist is that they use => arrow syntax instead of the function keyword:
+There is another, newer syntax for function expresions which you'll see a lot in the wild, called an arrow or fat-arrow function. I don't want to give you information overload, so I won't go into minutiae now, but the gist is that they use => arrow syntax instead of the function keyword:
 
 ```javascript
 document.body.addEventListener("click", event => event.preventDefault);
 ```
 
-These are meant to be timesavers, and that means that, depending on how simple your function is, they can be more or less barebones. The version above is the most barebones it can be. For now, know that whenever you see a fat arrow like that, you are looking at a function expression, or arrow function. You can pick up the finer points along the way.
+These are meant to be timesavers, and that means that, depending on how simple your function is, they can be more or less barebones. The version above is the most barebones it can be. For now, know that whenever you see a fat arrow like that, you are looking at a function expression, or arrow function. You can pick up the finer points along the way, or wait for lesson eight, when I'll explain the rules.
 
 # Today's challenge
 Wow, we've covered a lot of information. Today I want you to write your first function. The function will take no parameters, and will print a random letter of the alphabet, in lower case, to the console. It should be called randomLetter or something like that (whether you declare it or assign an expression to a variable is up to you). 
