@@ -92,8 +92,8 @@ while(x) {
 
 ## Challenge - factorialise this
 
-Ok, now I'm going to ask you to write a function that uses a for-loop of your own. The function should take an integer as an argument and return the factorial of that integer. The factorial of an integer is the integer times every number in between it and 1, inclusive. In maths (but not in programming) you indicate it with an exclamation mark.
+Ok, now I'm going to ask you to write a function that uses a for-loop of your own. The function should take a positive integer as an argument and return the factorial of that integer. The factorial of an integer is the integer times every number in between it and 1, inclusive. In maths (but not in programming) you indicate it with an exclamation mark.
 
-  !4 = 1 * 2 * 3 * 4 = 24
+  4! = 1 * 2 * 3 * 4 = 24
 
 If possible, make your factorial function take up five lines or less, but don't worry about this at first. First write the function, and then refactor it to try to make it better.
