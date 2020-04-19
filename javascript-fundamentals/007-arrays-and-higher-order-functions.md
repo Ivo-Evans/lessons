@@ -122,7 +122,7 @@ Let's get some practice using some of them
 
 ## Challenge 1
 
-I generated a massive array of numbers, because I have a flair for fun. You can find it in 007-data.
+I generated a massive array of numbers, because I have a flair for fun. You can find it in 007-exercise-data.
 
 Using the functions and properties discussed above, find out:
 - how long it is
