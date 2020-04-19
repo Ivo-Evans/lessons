@@ -32,7 +32,7 @@ Each of these four parts is optional - the empty for-loop we declared above was 
 
 
 ## rotate()
-I'll write a function which rotates an array according to a numeric argument given to it. By this I mean that you could do this:
+I'll write a function which rotates an array according to a numeric argument, like this:
 
 ```javascript
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -52,13 +52,13 @@ function rotate(array, times) {
 }
 ```
 
-This function's for-loop is a pretty-typical example. The _statement_ expresses the thing we want to do on each iteration of the loop, rotate the array by one. The top three conditions, meanwhile, are all for administration of the loop. The first one _declares_ a counter. The third one _increments_ the counter. And the second one says what needs to be false for the loop to stop running. 
+This function's for-loop is a pretty-typical example. The _statement_ expresses the thing we want to do on each iteration of the loop, rotate the array by one. The top three conditions, meanwhile, are all for administration of the loop. The first one _declares_ a counter. The third one _increments_ the counter. And the second one says what needs to be false of the counter for the loop to stop running. 
 
 ## for-loops v.s. the higher order functions: fisticuffs
-To be honest, while the example above is a typical example of for-loop syntax, it isn't _perfectly_ typical. The most common use for a for loop is to do something _once for every element of an array_, just like the higher-order functions we considered in the last lesson. Used to loop through an array, a for-loop looks like this:
+To be honest, while the example above is a typical example of for-loop syntax, it isn't completely typical. The most common use for a for loop is to do something _once for every element of an array_, just like the higher-order functions we considered in the last lesson. Used to loop through an array, a for-loop looks like this:
 
 ```javascript
-function customForEach(array, callbackFunction) {
+function poorMansForEach(array, callbackFunction) {
   for(let i = 0; i < array.length; i++) {
     callbackFunction(array[i])
   }
@@ -75,9 +75,9 @@ That said, there are some situations when you might want to use a for-loop. Here
  > ... because there is no data collection at all. This is the situation with the rotate() function we wrote earlier - we were looping through the numbers from 0 to the times parameter, but since there's no range data type in javascript, we can't use a higher order function on it. Another example is doing something once for every day until a certain point - although the dates are an ordered collection, there's no data type to represent that collection.   
  > ... because you've inherited an array-like value from the DOM which isn't actually an array, and for which the higher-order array functions are not available (see part 2 of this guide). 
 - You are trying to optimise for speed
-> Higher order functions generally do one job. If you want to do five things to an array, you coul do it with five higher-order functions, and then the array would be iterated through five times. On the other hand, if you did five things on each iteration of a for-loop, you would only have to iterate once, thus saving processing power. Understand, though, that speed is not always the priority. Computers are very fast anyway.
+> Higher order functions generally do one job. If you want to do five things to an array, you could do it with five higher-order functions, and then the array would be iterated through five times. On the other hand, if you did five things on each iteration of a for-loop, you would only have to iterate once, thus saving processing power. Understand, though, that speed is not always the priority. Computers are very fast anyway.
 - You want your code to be backward-compatible, and you don't want to transpile it
-> older environemnts don't support the higher-order functions. However, if you really want to write an application that works on Internet Explorer 10 (circa 2012) you can use a program like BabelJS, which 'transpiles' your code down into code that older browsers can understand. 
+> older environemnts, e.g. older browsers, don't support the higher-order functions. However, if you really want to write an application that works on Internet Explorer 10 (circa 2012) you can still use the higher order functions if you also use a program like BabelJS, which 'transpiles' your code down into code that older browsers can understand. 
 
 ## An honorary mention to the for-loop's siblings
 
@@ -96,4 +96,4 @@ Ok, now I'm going to ask you to write a function that uses a for-loop of your ow
 
   4! = 1 * 2 * 3 * 4 = 24
 
-If possible, make your factorial function take up five lines or less, but don't worry about this at first. First write the function, and then refactor it to try to make it better.
+Good luck!
